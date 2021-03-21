@@ -1,6 +1,9 @@
 import telebot
 
-TOKEN = ''
+# Read token from file
+f = open("key.ini", "r")
+TOKEN = f.readline()
+f.close()
 
 bot = telebot.TeleBot(TOKEN)
 
