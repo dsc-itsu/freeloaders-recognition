@@ -13,7 +13,7 @@ def send_welcome(message):
 
 @bot.message_handler(func=lambda message: True)
 def echo_all(message):
-	bot.send_message(message.chat.id, "Send me your photo, photo please.")
+	bot.send_message(message.chat.id, "Send me your photo, please.")
 
 @bot.message_handler(content_types=['photo'])
 def photo(message):
