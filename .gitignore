@@ -1,3 +1,5 @@
 
+.ipynb_checkpoints/
 key.ini
-.ipynb_checkpoints/bot-checkpoint.py
+config.ini
+mysite/config.ini
